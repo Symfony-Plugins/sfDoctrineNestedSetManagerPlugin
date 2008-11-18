@@ -1,0 +1,20 @@
+= Symfony Doctrine Nested Set Manager Plugin =
+
+== Installation ==
+You must enable the module for the nested set manager in your application settings.yml
+{{{
+all:
+  .settings:
+     enabled_modules:        [default, sfNestedSetManager]
+}}}
+
+== Usage ==
+{{{
+<?php
+// Category nested set with 1 root
+echo get_nested_set_manager('Category', 'name');
+
+// Comments nested set with multiple roots
+// echo get_nested_set_manager('Comment', 'body', 1); // 3rd argument is the root id of the nested set tree
+?>
+}}}
