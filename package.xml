@@ -19,17 +19,17 @@
   <email>sostrow@sowebdesigns.com</email>
   <active>yes</active>
  </developer>
- <date>2007-02-20</date>
- <time>15:54:35</time>
+ <date>2008-11-18</date>
+ <time>05:33:35</time>
  <version>
-  <release>0.0.1</release>
+  <release>1.2.0</release>
   <api>0.0.1</api>
  </version>
  <stability>
-  <release>alpha</release>
-  <api>alpha</api>
+  <release>stable</release>
+  <api>stable</api>
  </stability>
- <license uri="http://svn.symfony-project.com/plugins/sfDoctrineNestedSetManagerPlugin/branches/1.0/LICENSE">MIT</license>
+ <license uri="http://svn.symfony-project.com/plugins/sfDoctrineNestedSetManagerPlugin/trunk/LICENSE">MIT</license>
  <notes>This is the initial plugin</notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -62,9 +62,9 @@
    <package>
     <name>symfony</name>
     <channel>pear.symfony-project.com</channel>
-    <min>1.0</min>
-    <max>1.1.0</max>
-    <exclude>1.1.0</exclude>
+    <min>1.2</min>
+    <max>1.3.0</max>
+    <exclude>1.3.0</exclude>
    </package>
    <package>
     <name>sfDoctrinePlugin</name>
@@ -102,6 +102,20 @@
    <date>2007-02-20</date>
    <license uri="http://svn.symfony-project.com/plugins/sfDoctrineNestedSetManagerPlugin/branches/1.0/LICENSE">MIT</license>
    <notes>Adding Stephen.Ostrow as a developer</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.0</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-11-18</date>
+   <license uri="http://svn.symfony-project.com/plugins/sfDoctrineNestedSetManagerPlugin/trunk/LICENSE">MIT</license>
+   <notes> * Added a helpful note about using this as a helper
+ * Updated it to work with symfony 1.2</notes>
   </release>
  </changelog>
 </package>

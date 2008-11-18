@@ -12,6 +12,9 @@ You must enable the module for the nested set manager in your application settin
 ## Usage ##
     [php]
     <?php
+    // Need to use the helper
+    use_helper('NestedSetManager');
+
     // Category nested set with 1 root
     echo get_nested_set_manager('Category', 'name');
 

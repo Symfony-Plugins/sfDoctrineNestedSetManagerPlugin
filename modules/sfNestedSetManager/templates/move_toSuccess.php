@@ -1,5 +1,5 @@
 <?php
-use_helper('Javascript');
+use_helper('Form', 'Javascript');
 
 $options = array();
 foreach($records AS $record)
