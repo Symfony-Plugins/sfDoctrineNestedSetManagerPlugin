@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfDoctrineNestedSetManagerPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>Symfony Doctrine Nested Set Manager Plugin</summary>
+ <description>Helper to plugin interfaces for managing a nested set tree in Doctrine.</description>
+ <lead>
+  <name>Jonathan H. Wage</name>
+  <user>jwage</user>
+  <email>jwage@centresource.com</email>
+  <active>yes</active>
+ </lead>
+  <developer>
+  <name>Stephen Ostrow</name>
+  <user>Stephen.Ostrow</user>
+  <email>sostrow@sowebdesigns.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2007-02-20</date>
+ <time>15:54:35</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://svn.symfony-project.com/plugins/sfDoctrineNestedSetManagerPlugin/branches/1.0/LICENSE">MIT</license>
+ <notes>This is the initial plugin</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="f57624ae822ccd78ed4f9142faf74011" name="lib/helper/NestedSetManagerHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="bd9dd2c27c64b53cc112b7ebe17450bd" name="modules/sfNestedSetManager/actions/actions.class.php" role="php" />
+   <file baseinstalldir="/" md5sum="82b85068b5c5ce32fd013505306533eb" name="modules/sfNestedSetManager/actions/components.class.php" role="php" />
+   <file baseinstalldir="/" md5sum="20873f365b2d8d4efbf64a175144e113" name="modules/sfNestedSetManager/templates/add_childSuccess.php" role="php" />
+   <file baseinstalldir="/" md5sum="20873f365b2d8d4efbf64a175144e113" name="modules/sfNestedSetManager/templates/add_rootSuccess.php" role="php" />
+   <file baseinstalldir="/" md5sum="20873f365b2d8d4efbf64a175144e113" name="modules/sfNestedSetManager/templates/deleteSuccess.php" role="php" />
+   <file baseinstalldir="/" md5sum="20873f365b2d8d4efbf64a175144e113" name="modules/sfNestedSetManager/templates/do_move_toSuccess.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="modules/sfNestedSetManager/templates/indexSuccess.php" role="php" />
+   <file baseinstalldir="/" md5sum="20873f365b2d8d4efbf64a175144e113" name="modules/sfNestedSetManager/templates/moveSuccess.php" role="php" />
+   <file baseinstalldir="/" md5sum="5c34580bed581a7bfb738437a34dde96" name="modules/sfNestedSetManager/templates/move_toSuccess.php" role="php" />
+   <file baseinstalldir="/" md5sum="b1d296609e67bbb917595710f0bacebb" name="modules/sfNestedSetManager/templates/_edit_field.php" role="php" />
+   <file baseinstalldir="/" md5sum="c032915f26a2bdf360ff521cf20e6f8a" name="modules/sfNestedSetManager/templates/_manager.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc7d8b3a773503d79abcb3e3e6efd9b2" name="modules/sfNestedSetManager/templates/_nested_set_list.php" role="php" />
+   <file baseinstalldir="/" md5sum="21f1a855321e2106781366b38373ce30" name="web/css/manager.css" role="data" />
+   <file baseinstalldir="/" md5sum="9178889c0e94f1295a7f192a169918e4" name="LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="5fe4e23bc765a2cdb354ca253d8da08d" name="README" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a12</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0</min>
+    <max>1.1.0</max>
+    <exclude>1.1.0</exclude>
+   </package>
+   <package>
+    <name>sfDoctrinePlugin</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0</min>
+    <max>2.0</max>
+    <exclude>2.0</exclude>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.0</release>
+    <api>0.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-02-20</date>
+   <license uri="http://svn.symfony-project.com/plugins/sfDoctrineNestedSetManagerPlugin/branches/1.0/LICENSE">MIT</license>
+   <notes>This is the initial plugin</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-02-20</date>
+   <license uri="http://svn.symfony-project.com/plugins/sfDoctrineNestedSetManagerPlugin/branches/1.0/LICENSE">MIT</license>
+   <notes>Adding Stephen.Ostrow as a developer</notes>
+  </release>
+ </changelog>
+</package>

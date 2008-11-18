@@ -1,0 +1,1 @@
+<?php echo get_partial('sfNestedSetManager/nested_set_list', array('root' => $sf_request->getParameter('root'), 'model' => $sf_request->getParameter('model'), 'field' => $sf_request->getParameter('field'), 'records' => $records)); ?>

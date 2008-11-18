@@ -1,0 +1,25 @@
+.nested_set_manager_holder
+{
+  background: #FFFFCC;
+  padding: 12px;
+}
+
+.nested_set_manager_holder .nested_set_list
+{
+  list-style: none;
+}
+
+.nested_set_manager_holder .nested_set_list li
+{
+  height: 35px;
+}
+
+.nested_set_manager_holder .nested_set_list li .main_element
+{
+  width: 400px;
+  float: left;
+}
+
+.nested_set_manager_holder .nested_set_list li .links
+{
+}
